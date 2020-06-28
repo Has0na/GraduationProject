@@ -1,0 +1,182 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #3aaf9f;
+}
+.container{
+    position: relative;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 0px 70px #bbb;
+    padding: 30px 10px;
+    overflow: hidden;
+    width: 60%;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    width: 60%;
+    height: 600px;
+    padding: 0;
+}
+
+
+
+.info_student{
+    width: 100%;
+    float: none;
+    overflow: hidden;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.info_student span{
+    float: left;
+    width: calc(33.3333% - 20px);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.info_student .inp{
+    width: 90%;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.courses{
+    width: calc(50% - 50px);
+    overflow: hidden;
+    float: left;
+    margin: 0 25px;
+    height: 350px;
+}
+
+
+.courses .inp{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+}
+.inhome{
+    background:#3aaf9f;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 35px;
+    margin-left: 25px;
+    margin-top: 10px;
+    outline: none;
+    color: #fff;
+    border: 0;
+}
+.inhome:hover{
+    color: #fff;
+}
+
+.cont .left{
+    background: none;
+    width: 58.9%;
+    height: 600px;
+    float: left;
+}
+.cont .left .acc{
+    width: 100%;
+    height: 39.33333%;
+    background: #fff;
+}
+.cont .left .acc:hover{
+    cursor: pointer;
+}
+.cont .left .acdm{
+    width: 100%;
+    height: calc(60.66667% - 6px);
+    margin-top: 6px;
+    background: #fff;
+}
+.cont .left .acdm:hover{
+    cursor: pointer;
+}
+.cont .right{
+    background: none;
+    width: 40.5%;
+    height: 600px;
+    float: right;
+}
+.cont .right .feat{
+    width: calc(100% - 6px);
+    height: 50%;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    background: #fff;
+    float: left;
+}
+.cont .right .feat:hover{
+    cursor: pointer;
+}
+.cont h5{
+    padding: 20px;
+    color: #3aaf9f;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 600px){
+   .info{
+        width: 90%;
+    }
+    .info_student span{
+        width: calc(50% - 20px);
+    }
+    .courses{
+        width: 90%;
+        overflow: hidden;
+        float: none;
+        margin: auto;
+        height: 350px;
+    }
+    .inhome{
+        margin-left: 65px;
+        width: 120px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px){
+    .info{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
